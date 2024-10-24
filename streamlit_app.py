@@ -1,6 +1,8 @@
 import streamlit as st
 from openai import OpenAI
 
+st.page_link("SAFE-app/app.py", label="SAFE Quiz")
+
 # Show title and description.
 st.title("💬 Chatbot")
 st.write(
